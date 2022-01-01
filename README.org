@@ -1,0 +1,31 @@
+* README
+
+This project intend to follow [[https://www.youtube.com/watch?v=mpWFrUwAN88][DHH presentation on Rails 7]]
+
+** Timestamps / Chapters:
+
+- [[https://www.youtube.com/watch?v=mpWFrUwAN88&t=0s][0:00]] Scaffolding
+- [[https://www.youtube.com/watch?v=mpWFrUwAN88&t=240s][4:00]] Developing the Domain Model (Post)
+- [[https://www.youtube.com/watch?v=mpWFrUwAN88&t=308s][5:08]] Built in console/repl
+- [[https://www.youtube.com/watch?v=mpWFrUwAN88&t=375s][6:15]] ActionText Rails' Rich Text Editor
+- [[https://www.youtube.com/watch?v=mpWFrUwAN88&t=560s][9:20]] Javascript Import Maps - no node or webpack :D
+- [[https://www.youtube.com/watch?v=mpWFrUwAN88&t=625s][10:25]] Adding JS packages using pins
+- [[https://www.youtube.com/watch?v=mpWFrUwAN88&t=770s][12:50]] Downloading JS packages instead of using CDN
+- [[https://www.youtube.com/watch?v=mpWFrUwAN88&t=820s][13:40]] Adding Comments to the Blog Post
+- [[https://www.youtube.com/watch?v=mpWFrUwAN88&t=940s][15:40]] Adding Comments to the Web UI
+- [[https://www.youtube.com/watch?v=mpWFrUwAN88&t=1240s][20:40]] Adding Email Notifications with ActionMailer
+- [[https://www.youtube.com/watch?v=mpWFrUwAN88&t=1460s][24:20]] Live Updates via Websockets
+- [[https://www.youtube.com/watch?v=mpWFrUwAN88&t=1650s][27:30]] Testing
+- [[https://www.youtube.com/watch?v=mpWFrUwAN88&t=1755s][29:15]] Deploying to Heroku
+
+Thanks to [[https://www.youtube.com/watch?v=mpWFrUwAN88&lc=UgydY88D4th7GgNYYXZ4AaABAg][Jeremy Ward]]
+
+** Getting Started
+
+- Ruby: 3.0.2
+  I didn't use Ruby 3.1.0 because it won't work with Rails 7: https://github.com/rails/rails/issues/43998
+
+- Rails: 7.0.0
+  I needed to add gem 'redis' to Gemfile in order to make ActionCable works on Heroku
+
+- I also needed to install [[https://github.com/libvips/libvips][vips]] for ActionText handle attached images.
