@@ -13,6 +13,7 @@ class PostsController < ApplicationController
   # GET /posts/new
   def new
     @post = Post.new
+    render :new, formats: [:html]
   end
 
   # GET /posts/1/edit
