@@ -28,3 +28,13 @@ Thanks to [[https://www.youtube.com/watch?v=mpWFrUwAN88&lc=UgydY88D4th7GgNYYXZ4A
   I needed to add gem 'redis' to Gemfile in order to make ActionCable works on Heroku
 
 - I also needed to install [[https://github.com/libvips/libvips][vips]] for ActionText handle attached images.
+
+#+BEGIN_SRC bash
+$ sudo apt install libvips
+$ git clone https://github.com/acdesouza/demo_rails_7.git
+$ rvm install "ruby-3.2.2"
+$ cd demo_rails_7
+$ bundle
+$ rails db:reset
+$ rails server
+#+END_SRC
