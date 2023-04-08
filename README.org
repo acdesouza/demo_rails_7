@@ -22,10 +22,9 @@ Thanks to [[https://www.youtube.com/watch?v=mpWFrUwAN88&lc=UgydY88D4th7GgNYYXZ4A
 
 ** Getting Started
 
-- Ruby: 3.0.2
-  I didn't use Ruby 3.1.0 because it won't work with Rails 7: https://github.com/rails/rails/issues/43998
+- Ruby: 3.2.2
+- Rails: 7.0.4.3
 
-- Rails: 7.0.0
   I needed to add gem 'redis' to Gemfile in order to make ActionCable works on Heroku
 
 - I also needed to install [[https://github.com/libvips/libvips][vips]] for ActionText handle attached images.
